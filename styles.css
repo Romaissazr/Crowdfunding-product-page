@@ -1,0 +1,212 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    text-align: center;
+}
+body{
+    background: rgb(243, 243, 243);
+    font-size: 16px;
+}
+header{
+    background-image: url(images/image-hero-desktop.jpg);
+    padding: 30px 100px 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    
+}
+header ul {
+    display: flex; 
+  gap: 60px;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+  padding: 30px 10px;
+  margin: -80px 290px 100px 350px;
+  background: white;
+  position: relative;
+  border-radius: 5px;
+}
+
+#container .logo{
+    position: absolute;
+    top: -20px;
+    height: 50px;
+    left: calc(50% - 25px);
+}#container  h1{
+    margin-top: 20px;
+}
+ .des p{
+    color: hsl(0, 0%, 48%);
+    margin-top: 20px;
+    font-weight: 400;
+    margin-left: 50px;
+    text-align: center;
+}
+#container .butns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#container .butns a:nth-child(1){
+    margin: 30px 20px 0 20px ;
+   color: white;
+   text-decoration: none;
+   padding: 10px;
+   border-radius: 50px;
+   background: hsl(176, 50%, 47%);
+}
+#container .butns .boomark{
+    margin: 30px 20px 0 20px ;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background: #e1e0e09f;
+    
+}
+#container .butns .boomark a{
+    margin: 0 20px 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+
+}
+#container .butns  img{
+    height: 40px;
+   
+}
+#numbers .col{
+    display: flex;
+    gap:20px ;
+    
+
+}
+#numbers .des {
+    text-align: start;
+   
+  margin: -10px 0 10px -20px ;
+   
+}
+
+#numbers hr{
+    color: #7e7e7e44;
+    height: 50px;
+    border: 1px solid;
+    margin-top: 20px;
+}
+#numbers p {
+    text-align: start;
+}
+#numbers p strong{
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+  
+    
+   
+}
+#numbers .progress{
+    background-color: #7e7e7e47;
+    height: 7px;
+    border-radius: 4px;
+    width: 94%;
+    position: relative;
+    margin: 20px 20px 0 20px;
+}
+#numbers .progress-in{
+  
+position: absolute;
+left: 0;
+top: 0;
+height: 100%;
+border-radius: 4px;
+
+background-color: hsl(176, 50%, 47%);}
+
+#about h1 ,#about p{
+    text-align: start;
+    margin: 20px;
+
+}
+#about p{
+    color: hsl(0, 0%, 48%);
+}
+#about .row{
+display: flex;
+flex-direction: column;
+margin:  20px;
+padding:  20px 20px 10px 20px;
+border: 1px solid hsla(0, 0%, 48%, 0.386);
+border-radius: 5px;
+text-align: start;
+}
+
+#about .row .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+   
+ 
+}
+#about .row .head h3{
+   font-weight: 900;
+}
+#about .row .head p{
+    color: hsl(176, 50%, 47%);
+    font-weight: 500;
+}
+#about .row p{
+    margin: 5px 0px;
+}
+#about .row .foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}#about .row .foot strong{
+    color: black;
+    font-size: 26px;
+  
+}
+#about .row .foot .p{
+    display: flex; 
+    gap: 5px;
+    
+   
+}
+#about .row .foot p{
+font-size: 13px;
+margin-top: 5px;
+   
+}
+#about .row .foot a{
+    text-decoration: none;
+    padding: 8px 20px;
+    color: white;
+    background: hsl(176, 50%, 47%);
+    border-radius: 50px;
+}
+#about .row:last-child h3{
+    color: #7e7e7e;
+}
+#about .row:last-child strong{
+    color: #7e7e7e;
+}
+#about .row:last-child .head p{
+    color: hsla(176, 50%, 47%, 0.477);
+}
+#about .row:last-child  .foot a{
+    background: #7e7e7e48;
+}
